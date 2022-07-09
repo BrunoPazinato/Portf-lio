@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  html {
+    --bg-color: #EDF2FF;
+    --text-color: #00082F;
+    --primary-color: #4253EB;
+    --primary-color-dark: #16277e;
+  }
+  
+  body.dark-blue {
+    --bg-color: #00082F;
+    --text-color: #ffffff;
+  }
+  
+  body.pink {
+    --bg-color: #FFF0F6;
+    --text-color: #1F000B;
+    --primary-color: #D6336C;
+    --primary-color-dark: #A61E4D;
+  }
+  
+  body.dark-pink {
+    --bg-color: #1F000B;;
+    --text-color: #ffffff;
+    --primary-color: #D6336C;
+    --primary-color-dark: #A61E4D;
+  }
+  
+  body.principal {
+    --bg-color: #b6ffbf;;
+    --text-color: #000000;
+    --primary-color: #000000;
+    --primary-color-dark: #cbcbcb;
+  }
+  
+  
+  body {
+    background-image: url(https://files.passeidireto.com/93ab55a0-46ee-43ed-9cc2-e5908308ba13/93ab55a0-46ee-43ed-9cc2-e5908308ba13.jpeg);
+    color: var(--text-color);
+    font-family: 'roboto', sans-serif;
+  }
+    
+   .container {
+    background: var(--bg-color);
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    margin: 60px auto;
+    padding: 20px;
+    opacity: 0.9;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  img.avatar {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    padding: 3.0px;
+    border: var(--primary-color) solid 4px;
+  }
+  
+  img:hover {
+    opacity: 0.6;
+    transition: opacity 400ms;
+    color: #ffffff;
+  }
+  
+  h1.nome {
+    font-size: 32px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .username {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    opacity: 0.5;
+    font-size: 18px;
+  }
+  
+  .username:hover {
+    opacity: 1;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 40px 0;
+  }
+  
+  ul li a {
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 16px;
+  
+    margin-bottom: 16px;
+    border-radius: 6px;
+  
+    transition: background 400ms;
+  }
+  
+  ul li a:hover {
+    background: var(--primary-color-dark);
+  }
+  
+  footer {
+    font-weight: 500;
+    font-size: 15px;
+    opacity: 0.5;
+    transition: opacity 400ms;
+  }
+  footer:hover { 
+    opacity: 1;
+  }
+  
+  footer a {
+    color: var(--text-color);
+  }
